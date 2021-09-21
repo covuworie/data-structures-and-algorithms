@@ -2,7 +2,7 @@
 
 The LinkedList get method takes an index as its parameter and returns the node at that index. 
 
-From the code, we can see that we must first test that we have a valid index within the bounds of the length of the list and return None in this situation.
+From the code, we can see that we must first test that we have a valid index within the bounds of the length of the list and return None if this is not the case.
 
 ![Linked List Get Invalid](./images/linked-list-get-invalid.jpg?raw=true "Linked List Get Invalid")
 
