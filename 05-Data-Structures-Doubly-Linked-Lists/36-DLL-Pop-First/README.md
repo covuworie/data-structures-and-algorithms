@@ -6,7 +6,7 @@ From the code, we can see that the DoublyLinkedList pop first code deals with th
 
 Then the code deals with the edge case where there is one node in the list by pointing head and tail to None and returning the node through a temp variable that points to it.
 
-![Doubly Linked List Pop First One](./images/doubly-linked-list-pop-first-empty.jpg?raw=true "Doubly Linked List Pop First One")
+![Doubly Linked List Pop First One](./images/doubly-linked-list-pop-first-one.jpg?raw=true "Doubly Linked List Pop First One")
 
 Then the code deals with the main case where there are at least 2 items in the list. It first points head at the next node. Then breaks both links between the first and second nodes.
 
