@@ -16,7 +16,7 @@ The code looks like this.
 
 Otherwise we start iterating from the tail until we reach the node at the specified index.
 
-![Doubly Linked List Get Second Half](./images/doubly-linked-list-get-first-half.jpg?raw=true "Doubly Linked List Get Second Half")
+![Doubly Linked List Get Second Half](./images/doubly-linked-list-get-second-half.jpg?raw=true "Doubly Linked List Get Second Half")
 
 The code looks like this.
 
