@@ -1,7 +1,9 @@
+from typing import Optional
+
 class Node:
     def __init__(self, value: int) -> None:
         self.value = value
-        self.next = None
+        self.next: Optional[Node] = None
         
 
 class Stack:
