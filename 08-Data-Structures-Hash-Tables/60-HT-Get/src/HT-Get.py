@@ -23,10 +23,10 @@ class HashTable:
     def get_item(self, key: str) -> Union[int, None]:
         index = self.__hash(key)
         kv_pairs = self.data_map[index]
-        for kv_pair in kv_pairs if kv_pairs else []:
-            if not kv_pair[0] == key:
+        for (pair_key, pair_value) in kv_pairs if kv_pairs else []:
+            if not pair_key == key:
                 continue
-            return kv_pair[1]
+            return pair_value
         return None
              
 
