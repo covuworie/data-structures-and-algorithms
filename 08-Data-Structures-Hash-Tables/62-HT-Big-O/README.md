@@ -42,4 +42,4 @@ So for all intents and purposes, hash tables are O(1) for both inserting an elem
 
 ## What is Big O for Keys?
 
-Clearly this is O(n) since we have to loop through the address space to return the keys. The same would be true for a method which returns the key-value pairs.
+Clearly this is O(n) since we have to loop through the address space to return the keys. The same would be true for a method which *looks up by value* or one that returns the *key-value pairs*.
