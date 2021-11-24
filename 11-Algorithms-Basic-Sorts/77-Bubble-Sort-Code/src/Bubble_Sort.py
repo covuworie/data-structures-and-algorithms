@@ -19,6 +19,7 @@ def bubble_sort_recursive(my_list: List[int]) -> List[str]:
     return bubble_sort(my_list[:-1]) + my_list[i:]
 
 my_list = [4,2,6,5,1,3]
-
 print(bubble_sort(my_list))
-print(bubble_sort_recursive(my_list))
+
+my_list_2 = [4,2,6,5,1,3]
+print(bubble_sort_recursive(my_list_2))
