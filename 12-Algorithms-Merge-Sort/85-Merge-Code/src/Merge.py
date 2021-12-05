@@ -14,7 +14,7 @@ def merge(list1: List[int], list2: List[int]) -> List[int]:
     
     if list1:
         combined += list1[i:]
-    else:
+    if list2:
         combined += list2[j:]
 
     return combined
