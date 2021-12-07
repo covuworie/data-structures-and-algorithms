@@ -26,7 +26,7 @@ Now let's consider what happens when we start merging the lists back together in
 
 So combining these time complexities we see that the overall time complexity for merge sort is **O(n log n)**. On a graph this looks like this.
 
-![Merge Sort Big O Graph](./images/merge-sort-big-O.jpg?raw=true "Merge Sort Big O Graph")
+![Merge Sort Big O Graph](./images/merge-sort-Big-O.jpg?raw=true "Merge Sort Big O Graph")
 
 The first 3 sorting algorithms we created were O(n<sup>2</sup>). But merge sort is far more efficient. In fact O(n log n) is the most efficient that you can make a sorting algorithm that sorts multiple types of data. 
 
