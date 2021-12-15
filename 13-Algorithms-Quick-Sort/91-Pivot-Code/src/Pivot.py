@@ -1,9 +1,10 @@
 from typing import List
 
 def swap(my_list: List[int], index1: int, index2: int) -> None:
-    temp = my_list[index1]
-    my_list[index1] = my_list[index2]
-    my_list[index2] = temp
+    if index1 != index2:
+        temp = my_list[index1]
+        my_list[index1] = my_list[index2]
+        my_list[index2] = temp
 
 
 def pivot(my_list: List[int], pivot_index: int, end_index: int) -> int:

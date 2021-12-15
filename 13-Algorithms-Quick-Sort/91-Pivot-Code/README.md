@@ -4,10 +4,13 @@ Let's now write the code for the `pivot` function. The first thing to realize is
 
 ```
 def swap(my_list: List[int], index1: int, index2: int) -> None:
-    temp = my_list[index1]
-    my_list[index1] = my_list[index2]
-    my_list[index2] = temp
+    if index1 != index2:
+        temp = my_list[index1]
+        my_list[index1] = my_list[index2]
+        my_list[index2] = temp
 ```
+
+Note that we only swap the values if the indices `index1` and `index2` are different to avoid redundant swapping.
 
 Let's look at the `pivot` function itself now. We can see from the code that it takes `my_list`, `pivot_index` and `end_index` as parameters. What we are going to do here is pass the function a `pivot_index = 0` and an `end_index = 6` which correspond to the start and end of the entire list. 
 
