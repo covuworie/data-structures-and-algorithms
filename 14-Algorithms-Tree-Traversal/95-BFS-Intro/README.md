@@ -11,7 +11,7 @@ We will start at the root node like this,
 
 ![BFS Root](./images/bfs-root.jpg?raw=true "BFS Root")
 
-An important point to note is that in `queue` we store the *entire node*, recal that's the *value* as well as *left* and *right*. Let's change the value of the node to blue to emphasize that it's the entire node like so,
+An important point to note is that in `queue` we store the *entire node*, recall that's the *value* as well as *left* and *right*. Let's change the value of the node to blue to emphasize that it's the entire node like so,
 
 ![BFS Root Blue](./images/bfs-root-blue.jpg?raw=true "BFS Root Blue")
 
