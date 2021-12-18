@@ -31,7 +31,7 @@ class BinarySearchTree:
                     return True
                 temp = temp.right
     
-    def contains(self, value):
+    def contains(self, value: int) -> bool:
         if self.root is None:
             return False
         temp = self.root
